@@ -1,1 +1,3 @@
-
+begin
+    write('Belajar Pascal untuk Dasar Pemprograman');
+end.
