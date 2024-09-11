@@ -4,9 +4,9 @@ var
     Jalan,No,Kota,KodePos:string;
 begin
     clrscr;
-    write('Jalan :'); readln(Jalan);
-    write('No :'); readln(No);
-    write('Kota :'); readln(Kota);
+    write('Jalan    :'); readln(Jalan);
+    write('No       :'); readln(No);
+    write('Kota     :'); readln(Kota);
     write('Kode Pos :'); readln(KodePos);
     write('Alamat : Jalan ',Jalan);
     write(' No.',No);
