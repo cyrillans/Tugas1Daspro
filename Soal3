@@ -1,1 +1,18 @@
+program saya;
+uses crt;
+var
+    nama,NIM,Alamat:string;
+    Kom  : char;
 
+begin
+    clrscr;
+    write('Masukkan nama anda :'); readln(nama);
+    write('Masukkan NIM anda :'); readln(NIM);
+    write('Masukkan Kom anda :'); readln(Kom);
+    write('Masukkan alamat anda :'); readln(Alamat);
+    write('Hallo, Nama saya ',nama,',');
+    writeln(' NIM saya ',NIM,',');
+    write('saya di kom ',Kom,',');
+    write(' alamat saya di ',Alamat,'.');
+    write(' Salam Kenal Semua!');
+end. 
